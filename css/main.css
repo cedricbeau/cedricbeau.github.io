@@ -1,0 +1,137 @@
+/* ------------------------------------------------------------------------ */
+/* ------------------------------ SOFT RESET ------------------------------ */
+/* ------------------------------------------------------------------------ */
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+    box-sizing: content-box;
+    height: auto;
+    vertical-align: middle;
+}
+
+/* ----------------------------------------------------------------------- */
+/* ----------------------------- TYPOGRAPHY ------------------------------ */
+/* ----------------------------------------------------------------------- */
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+    color:#222;
+}
+
+body {
+  font-weight: normal;
+  font-style: normal;
+  cursor: default;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------ DISPLAY & LAYOUT ------------------------------ */
+/* ------------------------------------------------------------------------------ */
+
+/* blocks that must contain floats */
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/* module, gains superpower "BFC" Block Formating Context */
+
+.mod {
+  overflow: hidden;
+}
+
+/* blocks floats */
+
+.left,
+.start { float: left; }
+.right,
+.end { float: right; }
+
+/* table layout */
+
+.row {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.row > *,
+.col {
+  display: table-cell;
+  vertical-align: top;
+}
+
+/* inline-block */
+
+.inbl {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* block */
+
+.blk {
+    display: block;
+}
+
+/* ------------------------------------------------------------------------- */
+/* ------------------------------ PARAGRAPHES ------------------------------ */
+/* ------------------------------------------------------------------------- */
+
+div,
+p {
+  overflow-wrap: break-word;
+      word-wrap: break-word;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+     -moz-hyphens: auto;
+          hyphens: auto;
+}
+
+/* --------------------------------------------------------------------- */
+/* ------------------------------ ANCHORS ------------------------------ */
+/* --------------------------------------------------------------------- */
+
+a {
+    -webkit-transition: all 0.2s linear 0s;
+            transition: all 0.2s linear 0s;
+}
+
+a:hover,
+a:focus {cursor: pointer;}
+
+a:active {}
+
+a:visited {}
+
+/* -------------------------------------------------------------------- */
+/* ------------------------------ CUSTOM ------------------------------ */
+/* -------------------------------------------------------------------- */
+
+
+
+
+
+
