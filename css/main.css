@@ -304,6 +304,22 @@ Logo : #0099ff
   /* ----- Réalisations ----- */
   /* ------------------------ */
 
+  [id=realisations] .presentation {
+    margin-bottom:3rem;
+  }
+  [id=realisations] .presentation p {
+    margin:0;
+  }
+  @media only screen and (max-device-width:768px) {
+    [id=realisations] .presentation {
+      margin-bottom: 1.5rem;
+    }
+  }
+  @media only screen and (max-device-width:480px) {
+    [id=realisations] .presentation {
+      margin-bottom: 1rem;
+    }
+  }
   [class="realisations"] {
     display: -webkit-box;
     display: -webkit-flex;
@@ -458,7 +474,7 @@ Logo : #0099ff
           [id="follow-me"] li:nth-child(-n+2) {
             margin-top: 0;
           }
-        } 
+        }
         @media only screen and (max-device-width:480px) {
           [id="follow-me"] li a {
             height: 40px;
