@@ -139,6 +139,45 @@ a::after {
 a:hover,
 a:focus {cursor: pointer;}
 
+  .presentation_link {
+    position: relative;
+    z-index: 1;
+    color: #0099ff;
+    text-decoration: none;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .presentation_link:hover,
+  .presentation_link:focus {
+    color:#222;
+  }
+  .presentation_link::before {
+    position: absolute;
+    z-index: -1;
+    top:0;
+    bottom:0;
+    left:0;
+    width: 0;
+    content: '';
+  }
+  .presentation_link:hover::before,
+  .presentation_link:focus::before {
+    right: 0;
+    width: 100%;
+  }
+  .presentation_link.front-end-designer:hover::before,
+  .presentation_link.front-end-designer:focus::before {
+    background-color: #ccc;
+  }
+  .presentation_link.emedia:hover::before,
+  .presentation_link.emedia:focus::before {
+    background-color: #f59232;
+  }
+  .presentation_link.cv:hover::before,
+  .presentation_link.cv:focus::before {
+    background-color: #0099ff;
+  }
+
+
 /* -------------------------------------------------------------------- */
 /* ------------------------------ CUSTOM ------------------------------ */
 /* -------------------------------------------------------------------- */
@@ -260,44 +299,6 @@ Logo : #0099ff
 }
   [id="presentation"] p {
     margin: 0.5em 0;
-  }
-
-  [id="presentation"] a {
-    position: relative;
-    z-index: 1;
-    color: #0099ff;
-    text-decoration: none;
-    border-bottom: 1px solid #e5e5e5;
-  }
-  [id="presentation"] a:hover,
-  [id="presentation"] a:focus {
-    color:#222;
-  }
-  [id="presentation"] a::before {
-    position: absolute;
-    z-index: -1;
-    top:0;
-    bottom:0;
-    left:0;
-    width: 0;
-    content: '';
-  }
-  [id="presentation"] a:hover::before,
-  [id="presentation"] a:focus::before {
-    right: 0;
-    width: 100%;
-  }
-  [id="presentation"] a.front-end-designer:hover::before,
-  [id="presentation"] a.front-end-designer:focus::before {
-    background-color: #ccc;
-  }
-  [id="presentation"] a.emedia:hover::before,
-  [id="presentation"] a.emedia:focus::before {
-    background-color: #f59232;
-  }
-  [id="presentation"] a.cv:hover::before,
-  [id="presentation"] a.cv:focus::before {
-    background-color: #0099ff;
   }
 
   /* ------------------------ */
