@@ -1,0 +1,109 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "contact": {
+      "mail": "johndoe@gmail.com",
+      "phone": "06 05 04 03 02",
+      "adresse": {
+        "street": "7 rue du ciel",
+        "zipcode": "75007",
+        "city": "Paris"
+      }
+    },
+    "social": {
+      "twitter": "",
+      "linkedin": "",
+      "facebook": "",
+      "github": "",
+      "codepen": "",
+      "instagram": ""
+    },
+    "experience": [
+      {
+        "id": 1,
+        "poste": "Poste",
+        "date": "date",
+        "employeur": "Employeur",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non harum fugaccusamus eum id voluptatem a quam commodi, eaque rem! Quaerat unde aut voluptatuconsequuntur voluptates, earum quis repudiandae velit!"
+        },
+        {
+          "id": 2,
+          "poste": "Poste",
+          "date": "date",
+          "employeur": "Employeur",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non harum fugaccusamus eum id voluptatem a quam commodi, eaque rem! Quaerat unde aut voluptatuconsequuntur voluptates, earum quis repudiandae velit!"
+        },
+        {
+          "id": 3,
+          "poste": "Poste",
+          "date": "date",
+          "employeur": "Employeur",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non harum fugaccusamus eum id voluptatem a quam commodi, eaque rem! Quaerat unde aut voluptatuconsequuntur voluptates, earum quis repudiandae velit!"
+        }
+    ],
+    "formation": [
+      {
+        "id": 1,
+        "diplome": "Diplome",
+        "date": "Année",
+        "ecole": "Ecole",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non harum fug  accusamus eum id voluptatem a quam commodi, eaque rem! Quaerat unde aut voluptatu consequuntur voluptates, earum quis repudiandae velit!"
+      },
+      {
+        "id": 2,
+        "diplome": "Diplome",
+        "date": "Année",
+        "ecole": "Ecole",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non harum fug  accusamus eum id voluptatem a quam commodi, eaque rem! Quaerat unde aut voluptatu consequuntur voluptates, earum quis repudiandae velit!"
+      },
+      {
+        "id": 3,
+        "diplome": "Diplome",
+        "date": "Année",
+        "ecole": "Ecole",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non harum fug  accusamus eum id voluptatem a quam commodi, eaque rem! Quaerat unde aut voluptatu consequuntur voluptates, earum quis repudiandae velit!"
+      }
+    ],
+    "skills": [
+      {
+        "id": 1,
+        "nom": "HTML",
+        "percent": 85
+      },
+      {
+        "id": 2,
+        "nom": "CSS",
+        "percent": 90
+      },
+      {
+        "id": 3,
+        "nom": "JavaScript",
+        "percent": 65
+      },
+      {
+        "id": 4,
+        "nom": "WordPress",
+        "percent": 70
+      }
+    ],
+    "hobbies": [
+      {
+        "id": 1,
+        "text": "VTT"
+      },
+      { 
+        "id": 2,
+        "text": "Romans policiers"
+      },
+      {
+        "id": 3,
+        "text": "Séries TV"
+      },
+      {
+        "id": 4,
+        "text": "World of Warcraft"
+      }
+    ]
+  }
+]
