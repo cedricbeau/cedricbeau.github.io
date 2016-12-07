@@ -12,12 +12,12 @@
       }
     },
     "social": {
-      "twitter": "",
-      "linkedin": "",
-      "facebook": "",
-      "github": "",
-      "codepen": "",
-      "instagram": ""
+      "twitter": "Twitter",
+      "linkedin": "Linkedin",
+      "facebook": "Facebook",
+      "github": "Github",
+      "codepen": "Codepen",
+      "instagram": "Instagram"
     },
     "experience": [
       {
