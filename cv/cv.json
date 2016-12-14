@@ -25,21 +25,39 @@
         "poste": "Poste",
         "date": "date",
         "employeur": "Employeur",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non harum fugaccusamus eum id voluptatem a quam commodi, eaque rem! Quaerat unde aut voluptatuconsequuntur voluptates, earum quis repudiandae velit!"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non harum fugaccusamus eum id voluptatem a quam commodi, eaque rem! Quaerat unde aut voluptatuconsequuntur voluptates, earum quis repudiandae velit!",
+        "competences": {
+          "competence": "compétence 1",
+          "competence": "compétence 2",
+          "competence": "compétence 3",
+          "competence": "compétence 4"
+          }
         },
         {
           "id": 2,
           "poste": "Poste",
           "date": "date",
           "employeur": "Employeur",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non harum fugaccusamus eum id voluptatem a quam commodi, eaque rem! Quaerat unde aut voluptatuconsequuntur voluptates, earum quis repudiandae velit!"
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non harum fugaccusamus eum id voluptatem a quam commodi, eaque rem! Quaerat unde aut voluptatuconsequuntur voluptates, earum quis repudiandae velit!",
+          "competences": {
+            "competence": "compétence 1",
+            "competence": "compétence 2",
+            "competence": "compétence 3",
+            "competence": "compétence 4"
+          }
         },
         {
           "id": 3,
           "poste": "Poste",
           "date": "date",
           "employeur": "Employeur",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non harum fugaccusamus eum id voluptatem a quam commodi, eaque rem! Quaerat unde aut voluptatuconsequuntur voluptates, earum quis repudiandae velit!"
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non harum fugaccusamus eum id voluptatem a quam commodi, eaque rem! Quaerat unde aut voluptatuconsequuntur voluptates, earum quis repudiandae velit!",
+          "competences": {
+            "competence": "compétence 1",
+            "competence": "compétence 2",
+            "competence": "compétence 3",
+            "competence": "compétence 4"
+          }
         }
     ],
     "formation": [
