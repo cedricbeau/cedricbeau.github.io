@@ -462,7 +462,7 @@ Logo : #0099ff
           margin: auto;
           border-radius:2px;
         }
-        @media only screen and (max-device-width:768px) {
+        @media only screen and (max-width:768px) {
           [id="follow-me"] li {
             width: 49%;
             margin-top: 10px;
@@ -474,7 +474,7 @@ Logo : #0099ff
               height: 64px;
             }
         }
-        @media only screen and (max-device-width:480px) {
+        @media only screen and (max-width:480px) {
           [id="follow-me"] li a {
             height: 40px;
           }
@@ -504,7 +504,7 @@ Logo : #0099ff
           right: 0;
           width: 100%;          
         }
-        @media only screen and (max-device-width:768px) {
+        @media only screen and (max-width:768px) {
           [id="follow-me"] li a::after{
             right:0;
             width: 100%;
@@ -545,7 +545,7 @@ Logo : #0099ff
                   transition: all 0.2s linear;
         }        
             
-          @media only screen and (max-device-width:768px) {
+          @media only screen and (max-width:768px) {
             [id="follow-me"] li a.twitter::after {
               background-color:#55acee;
             }
@@ -561,12 +561,13 @@ Logo : #0099ff
             [id="follow-me"] li a svg {
               width: 32px;
               height: 32px;
+              fill:#FFF;
             }
           }
-          @media only screen and (max-device-width:480px) {
+          @media only screen and (max-width:480px) {
             [id="follow-me"] li a svg {
               width: 24px;
-              height: 24px;
+              height: 24px;              
             }
           }
           svg path {
