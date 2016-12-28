@@ -195,7 +195,7 @@ Logo : #0099ff
 */
 
 [class="responsive-container"] {
-  max-width: 94%;
+  width: 94%;
   min-width: 300px;
   padding:0 2%;
   margin: 0 auto;
@@ -516,16 +516,7 @@ Logo : #0099ff
             right: 0;
             width: 100%;
           }
-        }
-        @media only screen and (max-device-width:480px) {
-          [id="follow-me"] li a::after{
-            line-height: 40px;
-          }
-          [id="follow-me"] li a:hover::after,
-          [id="follow-me"] li a:focus::after {
-            line-height: 40px;
-          }
-        }
+        }       
         [id="follow-me"] li a.twitter:hover::after,
         [id="follow-me"] li a.twitter:focus::after {
           background-color:#55acee;
@@ -549,17 +540,12 @@ Logo : #0099ff
           -webkit-transform: translate(-50%,-50%);
               -ms-transform: translate(-50%,-50%);
                   transform: translate(-50%,-50%);
+          width: 64px;
+          height: 64px;
+          fill:#C0C0C0;
           -webkit-transition: all 0.2s linear;
                   transition: all 0.2s linear;
         }        
-          [id="follow-me"] svg {
-            width: 64px;
-            height: 64px;
-            fill:#C0C0C0;
-          }
-          @media only screen and (max-device-width:768px) {
-            
-            }
             [id="follow-me"] li a.twitter::after {
               background-color:#55acee;
             }
