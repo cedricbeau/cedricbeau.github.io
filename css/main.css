@@ -546,6 +546,8 @@ Logo : #0099ff
           -webkit-transition: all 0.2s linear;
                   transition: all 0.2s linear;
         }        
+            
+          @media only screen and (max-device-width:768px) {
             [id="follow-me"] li a.twitter::after {
               background-color:#55acee;
             }
@@ -558,7 +560,7 @@ Logo : #0099ff
             [id="follow-me"] li a.linkedin::after{
               background-color:#0077b5;
             }
-            [id="follow-me"] svg {
+            [id="follow-me"] li a svg {
               width: 32px;
               height: 32px;
             }
@@ -568,7 +570,6 @@ Logo : #0099ff
               width: 24px;
               height: 24px;
             }
-
           }
           svg path {
             -webkit-transition: all 0.2s linear;
