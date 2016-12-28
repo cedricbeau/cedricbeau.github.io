@@ -76,7 +76,7 @@ $('a[href*=#]:not([href=#])').click(function() {
                     width: "40px",
                     height: "40px",
                     "border-radius": "50%",
-                    "background-color": "#72B8B8",
+                    "background-color": "#0099FF",
                     cursor: "pointer"
                 });
                 t.html('<span style="display:block; height:40px; line-height:40px; text-align:center; color:#ffffff"><strong>&and;</strong></span>')
