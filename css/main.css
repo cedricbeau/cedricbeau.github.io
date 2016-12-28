@@ -195,7 +195,7 @@ Logo : #0099ff
 */
 
 [class="responsive-container"] {
-  max-width: 1000px;
+  max-width: 94%;
   min-width: 300px;
   padding:0 2%;
   margin: 0 auto;
@@ -504,31 +504,17 @@ Logo : #0099ff
         [id="follow-me"] li a:hover::after,
         [id="follow-me"] li a:focus::after {
           right: 0;
-          width: 100%;
-          padding-left: 74px;
-          font-size: 1.5em;
-          line-height: 100px;
-          color:#fff;
+          width: 100%;          
         }
         @media only screen and (max-device-width:768px) {
           [id="follow-me"] li a::after{
+            right:0;
             width: 100%;
-            right: 0;
-            padding-right:20px;
-            padding-left: 0;
-            font-size: 1em;
-            line-height: 64px;
-            text-align: right;
-            color:#C0C0C0;
           }
           [id="follow-me"] li a:hover::after,
           [id="follow-me"] li a:focus::after {
             right: 0;
             width: 100%;
-            padding-left: 0;
-            font-size: 1em;
-            line-height: 64px;
-            color:#fff;
           }
         }
         @media only screen and (max-device-width:480px) {
@@ -537,28 +523,23 @@ Logo : #0099ff
           }
           [id="follow-me"] li a:hover::after,
           [id="follow-me"] li a:focus::after {
-            font-size: 1em;
             line-height: 40px;
           }
         }
         [id="follow-me"] li a.twitter:hover::after,
         [id="follow-me"] li a.twitter:focus::after {
-          content:"Twitter";
           background-color:#55acee;
         }
         [id="follow-me"] li a.codepen:hover::after,
         [id="follow-me"] li a.codepen:focus::after {
-          content:"Codepen";
           background-color:#000;
         }
         [id="follow-me"] li a.github:hover::after,
         [id="follow-me"] li a.github:focus::after {
-          content:"Github";
           background-color:#000;
         }
         [id="follow-me"] li a.linkedin:hover::after,
         [id="follow-me"] li a.linkedin:focus::after {
-          content:"LinkedIn";
           background-color:#0077b5;
         }
         [id="follow-me"] li a svg {
@@ -570,40 +551,25 @@ Logo : #0099ff
                   transform: translate(-50%,-50%);
           -webkit-transition: all 0.2s linear;
                   transition: all 0.2s linear;
-        }
-        [id="follow-me"] li a:hover svg,
-        [id="follow-me"] li a:focus svg {
-          left:5%;
-          -webkit-transform: translate(5%,-50%);
-              -ms-transform: translate(5%,-50%);
-                  transform: translate(5%,-50%);
-        }
+        }        
           [id="follow-me"] svg {
             width: 64px;
             height: 64px;
             fill:#C0C0C0;
           }
           @media only screen and (max-device-width:768px) {
-            [id="follow-me"] li a svg {
-              left:15px;
-              -webkit-transform: translate(15px,-50%);
-                  -ms-transform: translate(15px,-50%);
-                      transform: translate(15px,-50%);
+            
             }
             [id="follow-me"] li a.twitter::after {
-              content:"Twitter";
               background-color:#55acee;
             }
             [id="follow-me"] li a.codepen::after {
-              content:"Codepen";
               background-color:#000;
             }
             [id="follow-me"] li a.github::after{
-              content:"Github";
               background-color:#000;
             }
             [id="follow-me"] li a.linkedin::after{
-              content:"LinkedIn";
               background-color:#0077b5;
             }
             [id="follow-me"] svg {
