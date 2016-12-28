@@ -463,18 +463,16 @@ Logo : #0099ff
           border-radius:2px;
         }
         @media only screen and (max-device-width:768px) {
-          [id="follow-me"] li a {
-            height: 64px;
-          }
-        }
-        @media only screen and (max-device-width:680px) {
-        [id="follow-me"] li {
+          [id="follow-me"] li {
             width: 49%;
             margin-top: 10px;
           }
           [id="follow-me"] li:nth-child(-n+2) {
             margin-top: 0;
           }
+            [id="follow-me"] li a {
+              height: 64px;
+            }
         }
         @media only screen and (max-device-width:480px) {
           [id="follow-me"] li a {
@@ -515,7 +513,7 @@ Logo : #0099ff
           [id="follow-me"] li a:focus::after {
             right: 0;
             width: 100%;
-          }
+          }          
         }       
         [id="follow-me"] li a.twitter:hover::after,
         [id="follow-me"] li a.twitter:focus::after {
