@@ -30,7 +30,7 @@ html {
     color:#222;
 }
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 1.25em;
   font-weight: normal;
   font-style: normal;
@@ -104,7 +104,7 @@ body {
 /* ------------------------------ TITRES ------------------------------ */
 /* -------------------------------------------------------------------- */
 
-h1, h2, h3, h4, h5, h6 {font-family: 'Bitter', serif;}
+h1, h2, h3, h4, h5, h6 {font-family: Georgia, 'Times New Roman', Times, serif;}
 
 @media only screen and (max-device-width:480px) {
   h2 {
